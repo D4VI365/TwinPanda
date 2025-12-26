@@ -1,4 +1,6 @@
 if SHIELD_BONAZZA_SPLIT_LEFT || SHIELD_BONAZZA_SPLIT_RIGHT
+
 config ZMK_KEYBOARD_NAME
-    default "BonazzaSplit"
+    default "TwinPanda"
+
 endif
