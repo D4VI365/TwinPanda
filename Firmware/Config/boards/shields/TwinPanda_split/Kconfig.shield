@@ -1,0 +1,5 @@
+config SHIELD_BONAZZA_SPLIT_LEFT
+    def_bool $(shields_list_contains,bonazza_split_left)
+
+config SHIELD_BONAZZA_SPLIT_RIGHT
+    def_bool $(shields_list_contains,bonazza_split_right)

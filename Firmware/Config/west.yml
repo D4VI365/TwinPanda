@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    # Definisce dove si trova il codice sorgente ufficiale
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+  projects:
+    # Ordina al sistema di scaricare ZMK
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+  self:
+    # Dice al sistema che QUESTA repository (la tua) contiene la configurazione
+    path: config
