@@ -10,11 +10,11 @@
  
 Case:
 ![FullCase](Images/FullCase.png)
-PCB:
-![CasePCB](Images/CasePCB.png)
+Full assembly:
+![FullAssembly](Images/FullAssembly.png)
 
 PCB Design:
-![PCB](Images/PCB.png)
+![PCB](PCB/PCB.png)
 
 Left Schematic:
 ![LSchematic](Images/LSchematic.png)
