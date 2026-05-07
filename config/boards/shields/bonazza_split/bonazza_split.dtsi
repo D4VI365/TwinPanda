@@ -23,11 +23,11 @@
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col";
         row-gpios
-            = <&mcp23017 0 GPIO_ACTIVE_HIGH>
-            , <&mcp23017 1 GPIO_ACTIVE_HIGH>
-            , <&mcp23017 2 GPIO_ACTIVE_HIGH>
-            , <&mcp23017 3 GPIO_ACTIVE_HIGH>
-            , <&mcp23017 4 GPIO_ACTIVE_HIGH>
+            = <&mcp23017 0 GPIO_ACTIVE_LOW>
+            , <&mcp23017 1 GPIO_ACTIVE_LOW>
+            , <&mcp23017 2 GPIO_ACTIVE_LOW>
+            , <&mcp23017 3 GPIO_ACTIVE_LOW>
+            , <&mcp23017 4 GPIO_ACTIVE_LOW>
             ;
         col-gpios
             = <&mcp23017 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
